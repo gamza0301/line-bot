@@ -16,7 +16,20 @@ CHANNEL_ACCESS_TOKEN = os.environ["CHANNEL_ACCESS_TOKEN"]
 CHANNEL_SECRET = os.environ["CHANNEL_SECRET"]
 
 # 환영 문구는 여기서 바꾸세요
-WELCOME_TEXT = "어서 오세요! 만나서 반갑습니다 😊"
+WELCOME_TEXT = """우리의 미식가님!🍒
+
+🦢 𝓒𝓱𝓮𝓻𝓲𝓼𝓱 🍷방에 오신걸 환영합니다
+
+오른쪽 상단 -> 「노트」
+
+①자기소개 • 족보 댓글에 작성
+
+②필독 공지 확인
+
+③ 완료 후 관리자 태그 (🍸)
+
+10분 내 미완료 • 공지 미숙지 시 강퇴
+!!"""
 
 app = Flask(__name__)
 configuration = Configuration(access_token=CHANNEL_ACCESS_TOKEN)
